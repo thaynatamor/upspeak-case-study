@@ -1,5 +1,7 @@
 # Estudo de caso — UpSpeak
 
+[← Voltar à apresentação](../README.md)
+
 ## Contexto
 
 A UpSpeak nasceu para apoiar o trabalho da professora Isadora Amorim. O desafio era reunir a apresentação do curso e a organização das aulas em uma experiência acessível para adultos, crianças e responsáveis.

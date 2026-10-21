@@ -1,5 +1,7 @@
 # Arquitetura conceitual
 
+[← Voltar à apresentação](../README.md)
+
 ```mermaid
 flowchart TD
     A[Visitante ou usuário autenticado] --> B[Interface React]

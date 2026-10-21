@@ -1,48 +1,64 @@
-<p align="center"><img src="assets/logo.svg" alt="UpSpeak" width="260"></p>
+<!-- Este README é público. Não incluir credenciais, configurações de contas ou dados de estudantes. -->
+<p align="center"><img src="assets/capa.svg" alt="UpSpeak — Educação conectada a cada aluno. Projeto de Thayná Tamor." width="100%"></p>
 
-# UpSpeak — plataforma de ensino de inglês
+<p align="center"><strong>Plataforma de ensino de inglês · Estudo de caso de produto e tecnologia</strong></p>
+<p align="center"><a href="https://upspeak.isadoraamorim.workers.dev">Conheça o site</a> · <a href="docs/estudo-de-caso.md">Estudo de caso</a> · <a href="docs/arquitetura.md">Arquitetura</a> · <a href="docs/jornadas.md">Jornadas de uso</a></p>
 
-**Idealização e desenvolvimento: Thayná Tamor**  
-**Professora e responsável pedagógica: Isadora Amorim**
+# Um projeto que nasceu de uma necessidade real
 
-Uma solução criada para uma necessidade real: organizar as aulas de inglês da minha esposa, Isadora, e aproximar a experiência da professora da rotina de cada estudante.
+Criei a **UpSpeak** para apoiar o trabalho da minha esposa, a professora **Isadora Amorim**, e organizar em uma mesma plataforma a apresentação do curso e a experiência de ensino e aprendizagem.
 
-A UpSpeak reúne a apresentação do curso e um portal com experiências para professora e alunos, incluindo atendimento em turmas e aulas particulares.
+O projeto conecta o trabalho da professora às necessidades de estudantes de inglês, com atendimento em **turmas e aulas particulares**, materiais personalizados e acompanhamento pedagógico.
 
-[Acessar o site público](https://upspeak.isadoraamorim.workers.dev) · [Ler o estudo de caso](docs/estudo-de-caso.md) · [Conhecer a arquitetura](docs/arquitetura.md)
+| Autoria do projeto | Responsabilidade pedagógica | Formato deste repositório |
+| :--- | :--- | :--- |
+| **Thayná Tamor** — idealização e desenvolvimento | **Isadora Amorim** — professora | Documentação pública de portfólio |
 
-## O que o projeto contempla
+## Explore o projeto
 
-- Site responsivo para apresentar a professora, o curso e avaliações públicas.
-- Portal com autenticação e acesso conforme o perfil do usuário.
-- Gestão de alunos, matrículas em turmas e atendimento particular.
-- Organização de aulas, materiais e links de encontros ao vivo.
-- Atividades e avaliações, envio de respostas e anexos, correção pela professora.
-- Boletins com resultados e acompanhamento pedagógico.
-- English Lab com exercícios organizados para a prática de inglês.
-- Geração de documentos em PDF e interfaces adaptadas para celular e tablet.
+| Quero conhecer… | Onde encontrar |
+| :--- | :--- |
+| O contexto, a solução e os aprendizados | [Estudo de caso](docs/estudo-de-caso.md) |
+| As tecnologias e suas responsabilidades | [Arquitetura comentada](docs/arquitetura.md) |
+| A experiência de professora e aluno | [Jornadas do produto](docs/jornadas.md) |
+| A organização conceitual das informações | [Visão de dados](docs/visao-de-dados.md) |
+| O escopo e os cuidados de apresentação | [Qualidade e limites](docs/qualidade-e-limites.md) |
+| Os créditos e as condições de uso | [Autoria e uso](NOTICE.md) |
 
-## Tecnologias
+## Da necessidade à experiência
 
-| Camada | Tecnologias utilizadas |
-| --- | --- |
-| Interface | React, Tailwind CSS, componentes de interface e Lucide |
-| Aplicação e build | Vinext, Vite e estrutura compatível com o App Router |
-| Autenticação e dados do portal | Supabase Auth, PostgreSQL e Storage |
-| Hospedagem e execução | Cloudflare Workers |
-| Avaliações públicas do site | Cloudflare D1 e Drizzle |
-| Documentos | pdf-lib |
+| Necessidade | Resposta no produto | Por que isso importa |
+| :--- | :--- | :--- |
+| Apresentar o curso e a professora | Site institucional e avaliações públicas | Reúne informações para quem está conhecendo a escola |
+| Organizar diferentes atendimentos | Alunos, turmas e aulas particulares | Acomoda formatos distintos de ensino |
+| Centralizar o conteúdo | Materiais, atividades e avaliações | Aproxima o conteúdo da rotina de estudo |
+| Receber e acompanhar entregas | Respostas, anexos e correções | Conecta a prática do aluno ao retorno da professora |
+| Registrar a evolução | Boletins e documentos PDF | Organiza o acompanhamento pedagógico |
+| Incentivar a prática | English Lab | Disponibiliza exercícios complementares |
+| Acessar por diferentes dispositivos | Interface responsiva | Considera o uso em computador, celular e tablet |
 
-## Meu papel
+## Construção técnica
 
-Trabalhei na tradução das necessidades da professora em fluxos de interface, organização das informações, integração com serviços de autenticação e persistência e preparação para publicação. O projeto evoluiu a partir do uso e das necessidades pedagógicas.
+**React · Tailwind CSS · Vinext · Vite · Supabase · PostgreSQL · Cloudflare Workers · D1 · pdf-lib**
 
-## Sobre este repositório
+A interface utiliza React e Tailwind CSS. O portal integra autenticação, dados e arquivos com Supabase; a aplicação é preparada para Cloudflare Workers. As avaliações públicas do site utilizam D1 e são diferentes das avaliações pedagógicas.
 
-Este é um **estudo de caso para portfólio**. A documentação descreve o produto e suas decisões técnicas. O código-fonte da aplicação permanece em repositório privado.
+A [documentação de arquitetura](docs/arquitetura.md) explica essa divisão sem expor a configuração operacional.
 
-O site vinculado é o ambiente público da escola; não há credenciais de demonstração neste material. Telas internas e dados de alunos não são publicados aqui.
+## Meu papel e os aprendizados
 
-Não são apresentados números de usuários, ganhos de produtividade ou resultados comerciais sem medição.
+Trabalhei no entendimento das necessidades da professora, na organização das funcionalidades, no desenvolvimento da interface e nas integrações necessárias para persistência e publicação.
 
-© 2026 Thayná Tamor. Consulte [NOTICE.md](NOTICE.md).
+O projeto trouxe prática em **requisitos de negócio, organização de dados, autenticação, experiência do usuário e evolução a partir de feedback**. A visão de dados descreve as relações do domínio; análises quantitativas de uso não são apresentadas como resultados deste projeto.
+
+## Visitação e demonstração
+
+O [site público da UpSpeak](https://upspeak.isadoraamorim.workers.dev) apresenta o curso. O portal é destinado aos usuários autorizados da escola.
+
+Este repositório contém documentação e recursos visuais de apresentação. O código completo é mantido privado. A capa é uma ilustração conceitual, não uma captura do portal.
+
+Para demonstrar fluxos internos, utilize uma apresentação acompanhada e dados fictícios. Não há credenciais de acesso ou registros de estudantes neste repositório.
+
+---
+
+<p align="center"><strong>Idealização e desenvolvimento por Thayná Tamor</strong><br>Projeto criado para o trabalho pedagógico de Isadora Amorim.<br>© 2026 · <a href="NOTICE.md">Autoria e uso</a></p>
