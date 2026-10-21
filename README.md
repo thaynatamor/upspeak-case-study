@@ -2,7 +2,7 @@
 <p align="center"><img src="assets/capa.svg" alt="UpSpeak — Educação conectada a cada aluno. Projeto de Thayná Tamor." width="100%"></p>
 
 <p align="center"><strong>Plataforma de ensino de inglês · Estudo de caso de produto e tecnologia</strong></p>
-<p align="center"><a href="https://upspeak.isadoraamorim.workers.dev">Conheça o site</a> · <a href="docs/estudo-de-caso.md">Estudo de caso</a> · <a href="docs/arquitetura.md">Arquitetura</a> · <a href="docs/jornadas.md">Jornadas de uso</a></p>
+<p align="center"><a href="https://upspeak.isadoraamorim.workers.dev">Conheça o site</a> · <a href="docs/estudo-de-caso.md">Estudo de caso</a> · <a href="docs/arquitetura.md">Arquitetura</a> · <a href="docs/visao-de-dados.md">Visão de dados</a> · <a href="docs/jornadas.md">Jornadas de uso</a></p>
 
 # Um projeto que nasceu de uma necessidade real
 
@@ -49,7 +49,19 @@ A [documentação de arquitetura](docs/arquitetura.md) explica essa divisão sem
 
 Trabalhei no entendimento das necessidades da professora, na organização das funcionalidades, no desenvolvimento da interface e nas integrações necessárias para persistência e publicação.
 
-O projeto trouxe prática em **requisitos de negócio, organização de dados, autenticação, experiência do usuário e evolução a partir de feedback**. A visão de dados descreve as relações do domínio; análises quantitativas de uso não são apresentadas como resultados deste projeto.
+O projeto trouxe prática em **requisitos de negócio, organização de dados, autenticação, experiência do usuário e evolução a partir de feedback**.
+
+### Organização das informações
+
+A plataforma reúne informações de **alunos, turmas, atividades, entregas, correções e boletins**. Organizar essas relações ajuda a preservar o contexto de cada registro: quem enviou uma resposta, a qual atividade ela pertence e a qual estudante e período um boletim se refere.
+
+A [visão de dados](docs/visao-de-dados.md) apresenta esses conceitos e as relações do domínio, sem expor registros de estudantes ou a configuração do banco.
+
+### Relação com meu foco em Análise de Dados
+
+A UpSpeak também contribuiu para meu interesse pela área de dados. Ao desenvolver a plataforma, trabalhei com a organização de informações de alunos, turmas, atividades e avaliações e com as relações entre esses registros. Essa experiência faz parte da base que estou aprofundando nos meus estudos em Análise de Dados.
+
+O trabalho apresentado aqui é de **desenvolvimento web e organização de informações**. As perguntas analíticas descritas na visão de dados são possibilidades de evolução; este estudo de caso não apresenta dashboards ou resultados quantitativos de uso.
 
 ## Visitação e demonstração
 
